@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Root menu items -->
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/nav_index"
+        android:icon="@drawable/baseline_home_24" />
+
+    <!-- Parent menu item for category -->
+    <item
+        android:id="@+id/nav_category"
+        android:title="@string/nav_category"
+        android:icon="@drawable/baseline_category_24" />
+
+    <!-- Other root menu items -->
+    <item
+        android:id="@+id/nav_cart"
+        android:title="@string/nav_cart"
+        android:icon="@drawable/baseline_add_shopping_cart_24" />
+    <item
+        android:id="@+id/nav_account"
+        android:title="@string/nav_account"
+        android:icon="@drawable/baseline_account_circle_24" />
+</menu>
